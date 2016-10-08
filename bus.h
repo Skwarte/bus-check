@@ -4,6 +4,14 @@ typedef struct Bus {
     int stops;
 } Bus;
 
+typedef struct Person {
+    char * name;
+    int pickup;
+	int destination;
+} Person;
+
+
+void print(Bus bus, int * arr);
 void setBusPopulation();
 void getBusPopulation();
 
