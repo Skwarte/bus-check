@@ -4,15 +4,15 @@ typedef struct Bus {
     int stops;
 } Bus;
 
-typedef struct Person {
-    char * name;
+typedef struct Passenger {
     int pickup;
 	int destination;
-} Person;
+} Passenger;
 
 
 void print(Bus bus, int * arr);
 void userChoice(Bus bus, int * arr);
+void addPassenger(Bus bus, int * arr);
 void setBusPopulation();
 void getBusPopulation();
 
