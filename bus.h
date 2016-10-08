@@ -12,6 +12,7 @@ typedef struct Person {
 
 
 void print(Bus bus, int * arr);
+void userChoice(Bus bus, int * arr);
 void setBusPopulation();
 void getBusPopulation();
 
